@@ -14,3 +14,14 @@ Project ini merupakan tugas dari matkul pemrograman mobile yaitu membuat aplikas
 
 # Cara menjalankan apk
 - Flutter run
+
+# Cara menjalankan server lokal
+- node.js, express, react: npm run dev
+- laravel: php artisan serve
+
+# Import database
+- Buka phpmyadmin
+- Membuat database baru
+- Pilih database yang telah dibuat
+- Import file database .sql di project itu
+- Pencet import
