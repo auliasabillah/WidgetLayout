@@ -1,17 +1,16 @@
-# tugas_ketiga
+# Aplikasi katalog
+Project ini merupakan tugas dari matkul pemrograman mobile yaitu membuat aplikasi katalog, dan saya memilih katalog 3 makanan yaitu Nasi goreng, pizza dan es cream.
 
-A new Flutter project.
 
-## Getting Started
+# Fitur
+- Beranda: menampilkan 3 daftar menu makanan
+- Detail katalog: menampilkan detail menu yaitu nama, harga dan deskripsi dengan tombol tambahkan ke favorit yang state teks dan warna berubah saat dipencet
+- Navigasi antar halaman
 
-This project is a starting point for a Flutter application.
+# Cara setup project
+- Pastikan sudah menginstall flutter SDK
+- Install dependency
+- Clone repo
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Cara menjalankan apk
+- Flutter run

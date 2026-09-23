@@ -19,7 +19,6 @@ class Beranda extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.ramen_dining, color: Colors.deepOrange, size: 40),
             title: const Text('Nasi Goreng Spesial'),
-            subtitle: const Text('Rp 25.000'),
             trailing: const Icon(Icons.chevron_right),
             onTap: () {
               Navigator.push(
@@ -37,7 +36,6 @@ class Beranda extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.local_pizza, color: Colors.deepOrange, size: 40),
             title: const Text('Pizza Keju Jumbo'),
-            subtitle: const Text('Rp 65.000'),
             trailing: const Icon(Icons.chevron_right),
             onTap: () {
               Navigator.push(
@@ -54,8 +52,7 @@ class Beranda extends StatelessWidget {
           ),
           ListTile(
             leading: const Icon(Icons.icecream, color: Colors.deepOrange, size: 40),
-            title: const Text('Es Krim Coklat'),
-            subtitle: const Text('Rp 15.000'),
+            title: const Text('Es Cream Coklat'),
             trailing: const Icon(Icons.chevron_right),
             onTap: () {
               Navigator.push(
@@ -111,7 +108,6 @@ class DetailMakananState extends State<DetailMakanan> {
               padding: const EdgeInsets.all(12.0),
               decoration: BoxDecoration(
                 color: Colors.orange[50],
-                borderRadius: BorderRadius.circular(8.0),
               ),
               child: Text(widget.deskripsi),
             ),
@@ -122,6 +118,9 @@ class DetailMakananState extends State<DetailMakanan> {
                   isFavorite = !isFavorite;
                 });
               },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: isFavorite ? const Color.fromARGB(255, 255, 181, 207) : Colors.white,
+              ),
               child: Text(isFavorite ? 'Favorit ♥' : 'Tambah ke Favorit'),
             ),
           ],
